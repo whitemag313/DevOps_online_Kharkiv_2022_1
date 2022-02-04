@@ -1,4 +1,4 @@
-As a first I created private repo with master branch. On the next step were created 3 branches:
+As a first I created private repo with master branch. On the next steps were created 3 branches:
 1. develop - created index.html;
 2. images - added 2 images and added them in index.html;
 3. style - added style1.css and also added in index.html;
