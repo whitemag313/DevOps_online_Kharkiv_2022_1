@@ -6,4 +6,4 @@
 
 ## 2. Made snapshot for backup
 
-![create inst](m2/Task2.2/screenshots/make a snapshot.png)
+![alt text](m2/Task2.2/screenshots/make a snapshot.png)
