@@ -10,12 +10,15 @@
 
 ## 3. Create and attach disk
 Create:
+
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/create%20Disk%20D.png)
 
 Atached and mouted:
+
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/atached%20disk%20d.png)
 
 Create folders test1,test2 and HelloW.txt on diskd
+
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/craete%20some%20files.png)
 
 # 4. Launch the second instance from backup
