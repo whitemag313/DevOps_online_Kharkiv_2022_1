@@ -1,6 +1,6 @@
 
 
-Enter in a system as root with command ``` sudo -s" ``` . After this changed password with command ```passwd``` and see changes in file "etc\shadow"
+Enter in a system as root with command ``` sudo -s ``` . After this changed password with command ```passwd``` and see changes in file "etc\shadow"
 
 Before change
 ```
