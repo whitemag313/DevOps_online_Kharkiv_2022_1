@@ -1,31 +1,35 @@
 #   TASK 2.2.1 - First Steps
 
-##  1. Create instance
+###  1. Create instance
 
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/create_instance.png)
 
-## 2. Made snapshot for backup
+### 2. Made snapshot for backup
 
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/make%20a%20snapshot.png)
 
-## 3. Create and attach disk
+### 3. Create and attach disk
 Create:
-![alt text] (https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/create%20Disk%20D.png)
+
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/create%20Disk%20D.png)
 
 Atached and mouted:
-![alt text] (https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/atached%20disk%20d.png)
+
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/atached%20disk%20d.png)
 
 Create folders test1,test2 and HelloW.txt on diskd
-![alt text] (https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/craete%20some%20files.png)
 
-# 4. Launch the second instance from backup
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/craete%20some%20files.png)
 
-![alt text] (https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/create%20inst%20from%20snapshot.png)
+### 4. Launch the second instance from backup
 
-# 5.  Attach disk to new instance
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/create%20inst%20from%20snapshot.png)
+
+### 5.  Attach disk to new instance
 
 Detach disk from first instance, attach to new instance and check the info on diskd
 
+<<<<<<< HEAD
 ![alt text] (https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/mount%20disk%20to%20snap.png)
 
 # TASK 2.2.2 - Simple WebSite
@@ -61,3 +65,6 @@ The next I will write a little file - index.html:
 ```
 ### Create a Web-Site
 And now need to create the instance and configure the server. To solve this I will use Terraform.
+=======
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/mount%20disk%20to%20snap.png)
+>>>>>>> 191a318715588f79fdfad40f7c84ba359b1eb104
