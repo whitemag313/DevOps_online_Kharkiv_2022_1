@@ -58,6 +58,6 @@ Example command ```man```
 
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m4/Task4.1/screenshots/man_chfn.png)
 
-Example command ```ls``` on home directory, where blue - its directorys, white - 20files
+Example command ```ls``` on home directory, where blue - is directories, white - files
 
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m4/Task4.1/screenshots/ls.png)
