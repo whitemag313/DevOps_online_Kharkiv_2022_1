@@ -1,4 +1,5 @@
 
+#Task 4.1
 
 Enter in a system as root with command ``` sudo -s ``` . After this changed password with command ```passwd``` and see changes in file "etc\shadow"
 
@@ -41,8 +42,22 @@ lxd:!:19082::::::
 ```
 To change the info about user need to use command ```chfn [username]```
 
-![alt text]()
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m4/Task4.1/screenshots/chfn_mt.png)
 
 Can see changes in /etc/passwd
 
 ```mt:x:1000:1000:Michael,777,000-000,111-111,other inf:/home/mt:/bin/bash```
+
+
+Last logon time for all users:
+
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m4/Task4.1/screenshots/lastlog.png)
+
+
+Example command ```man```
+
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m4/Task4.1/screenshots/man_chfn.png)
+
+Example command ```ls``` on home directory, where blue - its directorys, white - 20files
+
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m4/Task4.1/screenshots/ls.png)
