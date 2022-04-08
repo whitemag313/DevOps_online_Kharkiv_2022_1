@@ -67,4 +67,3 @@ The next I will write a little file - index.html:
 And now need to create the instance and configure the server. To solve this I will use Terraform.
 =======
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/mount%20disk%20to%20snap.png)
->>>>>>> 191a318715588f79fdfad40f7c84ba359b1eb104
