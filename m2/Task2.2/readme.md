@@ -29,8 +29,6 @@ Create folders test1,test2 and HelloW.txt on diskd
 
 Detach disk from first instance, attach to new instance and check the info on diskd
 
-<<<<<<< HEAD
-![alt text] (https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/mount%20disk%20to%20snap.png)
 
 # TASK 2.2.2 - Simple WebSite
 
@@ -63,7 +61,11 @@ The next I will write a little file - index.html:
 </body>
 </html>
 ```
+
 ### Create a Web-Site
-And now need to create the instance and configure the server. To solve this I will use Terraform.
-=======
-![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/mount%20disk%20to%20snap.png)
+
+And now need to create the instance and configure the server. To solve this I will use Terraform. Create a simple Terraform file:
+
+```
+
+```
