@@ -3,10 +3,6 @@ provider "aws" {
 }
 
 
-resource "aws_eip" "my_static_ip" {
-  instance = aws_instance.my_web_server.id
-}
-
 resource "aws_instance" "my_web_server" {
   ami                    = "ami-04c921614424b07cd"
   instance_type          = "t2.micro"
@@ -21,6 +17,9 @@ resource "aws_instance" "my_web_server" {
   }
 }
 
+resource "aws_eip" "my_static_ip" {
+  instance = aws_instance.my_web_server.id
+}
 
 resource "aws_security_group" "my_web_server" {
   name = "Dynamic Sec Group"
@@ -34,7 +33,6 @@ resource "aws_security_group" "my_web_server" {
       cidr_blocks = ["0.0.0.0/0"]
     }
   }
-
 
   egress {
     from_port   = 0
