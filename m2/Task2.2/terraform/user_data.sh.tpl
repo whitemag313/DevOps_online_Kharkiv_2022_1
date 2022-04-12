@@ -2,7 +2,7 @@
 yum -y update
 yum -y install httpd
 mkdir /var/www/html/styles ; touch /var/www/html/styles/style1.css
-mkdir /var/www/html/images ; wget -P /var/www/html/images https://github.com/whitemag313/test/blob/main/image.png
+mkdir /var/www/html/images ; wget -P /var/www/html/images https://github.com/whitemag313/test/blob/main/image.jpg
 cat <<EOF > /var/www/html/styles/syle1.css
 h1 {
   font-family: 'Lobster', cursive;
@@ -29,7 +29,7 @@ cat <<EOF > /var/www/html/index.html
   <h2>Hello!
     <br>My Name is Michael Timchenko</br> </h2>
 
-  <p><img src="images/image.png"></p>
+  <p><img src="images/image.jpg"></p>
 
   <p>I take courses from EPAM. Before that I worked with AWS EC2 and Terraform,
     <br>but this is were in test envoirment, not in production. Also alredy knew about Elastic IP and S3. </p>

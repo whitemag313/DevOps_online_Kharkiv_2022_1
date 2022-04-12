@@ -2,6 +2,9 @@ provider "aws" {
   region = "eu-central-1"
 }
 
+resource "aws_eip" "my_static_ip" {
+  instance = aws_instance.my_web_server.id
+}
 
 resource "aws_instance" "my_web_server" {
   ami                    = "ami-04c921614424b07cd"
@@ -17,9 +20,7 @@ resource "aws_instance" "my_web_server" {
   }
 }
 
-resource "aws_eip" "my_static_ip" {
-  instance = aws_instance.my_web_server.id
-}
+
 
 resource "aws_security_group" "my_web_server" {
   name = "Dynamic Sec Group"
