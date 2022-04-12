@@ -122,12 +122,12 @@ resource "aws_security_group" "my_web_server" {
 
 In outputs we can see public IP.
 
-![alt text]()
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/terraform_apply_out.png)
 
 Next we need attach domain name to IP (i use free domain name pp.ua on nic.ua):
 
-![alt text]()
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/domain_ip.png)
 
 Web-site ready:
 
-![alt text]()
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m2/Task2.2/screenshots/website.png)
