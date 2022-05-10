@@ -10,7 +10,7 @@ case "$1" in
            --all) echo "Name of host and IP addresses :"
                 hostnamectl | grep -i hostname
                 ip addr | grep -i inet;;
-           --target) echo "Open system TCP ports:"
+        --target) echo "Open system TCP ports:"
                 netstat -lt;;
                *) echo "Enter somting key!"
                 echo "--all key displays the IP addresses and symbolic names of all hosts in the current subnet"
