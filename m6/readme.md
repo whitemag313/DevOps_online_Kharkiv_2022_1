@@ -1,6 +1,6 @@
 # Task 6.1
 
-Script A
+##Script A
 
 ```
 #!/bin/bash
@@ -27,9 +27,9 @@ done
 ```
 Result:
 
-![alt text]()
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/scr_a.png)
 
-Script B:
+##Script B:
 
 ```
 #!/bin/bash
@@ -63,9 +63,9 @@ done
 ```
 Result:
 
-![alt text]()
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/scr_b.png)
 
-Script C:
+##Script C:
 
 ```
 #!/bin/bash
@@ -83,3 +83,9 @@ fi
 # */1 * * * * root ./home/u/GitHub/DevOps_online_Kharkiv_2022_1/m6/scripts/scr_c.sh
 
 ```
+Result:
+made different files
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/rnd_test_test.png)
+
+Start scipt:
+![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/scr_c.png)
