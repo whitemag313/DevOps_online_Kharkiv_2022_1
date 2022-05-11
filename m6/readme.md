@@ -84,8 +84,11 @@ fi
 
 ```
 Result:
+
 made different files
+
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/rnd_test_test.png)
 
 Start scipt:
+
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/scr_c.png)
