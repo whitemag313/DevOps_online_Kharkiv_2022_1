@@ -11,3 +11,7 @@ echo _______________________
 echo Most frequncy time:
 awk '{print substr($4, 2, 17)}' /home/u/GitHub/DevOps_online_Kharkiv_2022_1/m6/apache_logs.txt | sort | uniq -c | sort -nr | head -n 1
 echo _______________________
+
+echo Most frequncy time:
+awk '{print substr($11, 49, 150)}' /home/u/GitHub/DevOps_online_Kharkiv_2022_1/m6/apache_logs.txt | sort | uniq -c | sort -nr | head -n 20
+echo _______________________
