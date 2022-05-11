@@ -1,6 +1,6 @@
 # Task 6.1
 
-##Script A
+## Script A
 
 ```
 #!/bin/bash
@@ -29,7 +29,7 @@ Result:
 
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/scr_a.png)
 
-##Script B:
+## Script B:
 
 ```
 #!/bin/bash
@@ -65,7 +65,7 @@ Result:
 
 ![alt text](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m6/scrshots/scr_b.png)
 
-##Script C:
+## Script C:
 
 ```
 #!/bin/bash
