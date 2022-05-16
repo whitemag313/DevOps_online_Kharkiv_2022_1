@@ -25,23 +25,23 @@ Check it
 Made beckup DB with command:
 ```sudo mysqldump -u root -p devops_winter_2022 > dumpdev.sql```
 
-![dump_db]()
+![dump_db](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/dump_db.png)
 
 Drop DB and create new with name "dev_2022"
 
-![drop_db]()
+![drop_db](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/drop_db.png)
 
 Load from backup with command :
 ```sudo mysql -u root -p dev_2022 < dumpdev.sql ```
 
-![restored_db]()
+![restored_db](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/restored_db.png)
 
 Create RDS on amazon, connect and create empty DB - "rds_dev_2022":
 ```mysql -h database-1.czgnjfnzxshk.eu-central-1.rds.amazonaws.com -P 3306 -u admin -p ```
 
-![create_rds]()
+![create_rds](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/create_rds.png)
 
-![rds_1]()
+![rds_1](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/rds_1.png)
 
 Load our beckup and test it:
 
@@ -49,6 +49,6 @@ Load our beckup and test it:
 
 Try to select data from table:
 
-![test_rds_dump]()
+![test_rds_dump](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/test_rds_dump.png)
 
 ### Part 3
