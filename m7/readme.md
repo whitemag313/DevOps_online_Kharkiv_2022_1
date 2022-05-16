@@ -25,9 +25,30 @@ Check it
 Made beckup DB with command:
 ```sudo mysqldump -u root -p devops_winter_2022 > dumpdev.sql```
 
+![dump_db]()
+
 Drop DB and create new with name "dev_2022"
 
-![alt text]()
+![drop_db]()
 
 Load from backup with command :
 ```sudo mysql -u root -p dev_2022 < dumpdev.sql ```
+
+![restored_db]()
+
+Create RDS on amazon, connect and create empty DB - "rds_dev_2022":
+```mysql -h database-1.czgnjfnzxshk.eu-central-1.rds.amazonaws.com -P 3306 -u admin -p ```
+
+![create_rds]()
+
+![rds_1]()
+
+Load our beckup and test it:
+
+```mysql -h database-1.czgnjfnzxshk.eu-central-1.rds.amazonaws.com -P 3306 -u admin -p rds_dev_2022 < dumpdev.sql ```
+
+Try to select data from table:
+
+![test_rds_dump]()
+
+### Part 3
