@@ -52,3 +52,16 @@ Try to select data from table:
 ![test_rds_dump](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/test_rds_dump.png)
 
 ### Part 3
+
+Create DB - "dev_mongo"
+
+![mongodb_coll]()
+
+Add a few documents into DB :
+```
+db.dev_mongo.insert({"id":"1", "first name": "Tom", "last name":"Ford"})
+db.dev_mongo.insert({"id":"2", "first name": "Sara", "last name":"Conor"})
+```
+
+And show it
+![show_mdb]()
