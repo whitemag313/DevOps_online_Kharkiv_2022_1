@@ -55,7 +55,7 @@ Try to select data from table:
 
 Create DB - "dev_mongo"
 
-![mongodb_coll]()
+![mongodb_coll](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/mongodb_coll.png)
 
 Add a few documents into DB :
 ```
@@ -63,5 +63,6 @@ db.dev_mongo.insert({"id":"1", "first name": "Tom", "last name":"Ford"})
 db.dev_mongo.insert({"id":"2", "first name": "Sara", "last name":"Conor"})
 ```
 
-And show it
-![show_mdb]()
+And show it with ```db.dev_mongo.find().pretty()```
+
+![show_mdb](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m7/scr/show_mdb.png)
