@@ -69,8 +69,6 @@ And now need to create the instance and configure the server. To solve this I wi
 ```
 provider "aws" {
   region     = "eu-central-1"
-  access_key = "AKIA4DXLWMAUPEJGW7ML"
-  secret_key = "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"
 }
 
 resource "aws_eip" "my_static_ip" {
