@@ -5,10 +5,7 @@ words = message.split(" ")
 emojis = {
    ":)": "😀",
    ":(": "😞",
-   "lol": "😂",
-   "sick": "😨",
-   "happy": "😀",
-   "mermaid": "🧜‍"
+   "lol": "😂"
 }
 outcome = " "
 for word in words:
