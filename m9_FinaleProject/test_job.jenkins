@@ -1,0 +1,25 @@
+#!groovy
+
+properties([disableConcurrentBuilds()])
+
+pipeline {
+    agent {
+        label 'master'
+        }
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
+        timestamps()
+    }
+    stages {
+        stage("test") {
+            steps {
+                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.65.235.188 \'hostname\''
+            }
+        }
+        stage("Second test") {
+            steps {
+                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.65.235.188 \'uptime\''
+            }
+        }
+    }
+}
