@@ -16,9 +16,11 @@ pipeline {
                 sh 'ssh -i /home/jenkins/jenkins ec2-user@3.65.235.188 \'hostname\''
             }
         }
-        stage("Second test") {
+        stage("Copy script") {
             steps {
-                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.65.235.188 \'uptime\''
+                dir ('m9_FinaleProject'){
+                     sh 'cp parser_cg.py'
+               }
             }
         }
     }
