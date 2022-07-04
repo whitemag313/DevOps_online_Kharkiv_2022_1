@@ -6,21 +6,30 @@ pipeline {
     agent {
         label 'master'
         }
+    triggers { pollSCM('* * * * *') }
     options {
         buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
         timestamps()
     }
     stages {
-        stage("test") {
+      stage("prepearing") {
+          steps {
+              sh 'rm -rf DevOps_online_Kharkiv_2022_1/'
+          }
+      }
+      stage("clone repo") {
             steps {
-                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.65.235.188 \'hostname\''
+                sh 'git clone https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1.git'
             }
         }
-        stage("Copy script") {
+        stage("copy parser") {
             steps {
-                dir ('m9_FinaleProject'){
-                     sh 'cp parser_cg.py'
-               }
+                sh 'scp -i /home/jenkins/jenkins /home/jenkins/DevOps_online_Kharkiv_2022_1/m9_FinaleProject/parser_cg.py  ec2-user@3.126.44.57:/home/ec2-user'
+            }
+        }
+        stage("delete repo") {
+            steps {
+                sh 'rm -rf DevOps_online_Kharkiv_2022_1/'
             }
         }
     }

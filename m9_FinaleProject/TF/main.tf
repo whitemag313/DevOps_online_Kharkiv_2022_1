@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "eu-central-1"
-  access_key = "AKIA4DXLWMAUCOSRUTVW"
-  secret_key = "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"
+  access_key = "access_key"
+  secret_key = "secret_key"
 }
 
 resource "aws_eip" "my_static_ip" {
