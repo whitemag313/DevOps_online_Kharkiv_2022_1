@@ -12,24 +12,9 @@ pipeline {
         timestamps()
     }
     stages {
-      stage("prepearing") {
-          steps {
-              sh 'rm -rf DevOps_online_Kharkiv_2022_1/'
-          }
-      }
-      stage("clone repo") {
-            steps {
-                sh 'git clone https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1.git'
-            }
-        }
         stage("copy parser") {
             steps {
-                sh 'scp -i /home/jenkins/jenkins /home/jenkins/DevOps_online_Kharkiv_2022_1/m9_FinaleProject/parser_cg.py  ec2-user@3.126.44.57:/home/ec2-user'
-            }
-        }
-        stage("delete repo") {
-            steps {
-                sh 'rm -rf DevOps_online_Kharkiv_2022_1/'
+                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.126.44.57 \'wget https://raw.githubusercontent.com/whitemag313/DevOps_online_Kharkiv_2022_1/master/m9_FinaleProject/parser_cg.py\''
             }
         }
     }
