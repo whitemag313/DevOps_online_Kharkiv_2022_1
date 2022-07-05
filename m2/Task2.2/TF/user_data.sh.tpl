@@ -2,15 +2,13 @@
 yum -y update
 yum -y install httpd
 mkdir /var/www/html/styles ; touch /var/www/html/styles/style1.css
-mkdir /var/www/html/images ; wget -P /var/www/html/images https://github.com/whitemag313/test/blob/main/image.jpg
+mkdir /var/www/html/images ; wget -P /var/www/html/images https://raw.githubusercontent.com/whitemag313/test/main/image.jpg
 cat <<EOF > /var/www/html/styles/syle1.css
 h1 {
   font-family: 'Lobster', cursive;
   color: green;
 }
 EOF
-
-# myip=`curl http://192.254.169.254/latest/meta-data/local-ipv4`
 
 cat <<EOF > /var/www/html/index.html
 <!DOCTYPE html>
