@@ -1,0 +1,21 @@
+#!groovy
+
+properties([disableConcurrentBuilds()])
+
+pipeline {
+    agent {
+        label 'master'
+        }
+    triggers { pollSCM('* * * * *') }
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
+        timestamps()
+    }
+    stages {
+        stage("copy parser") {
+            steps {
+                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.66.199.58 \'wget -O parser_cg.py https://raw.githubusercontent.com/whitemag313/DevOps_online_Kharkiv_2022_1/master/m9_FinaleProject/parser_cg.py\''
+            }
+        }
+    }
+}
