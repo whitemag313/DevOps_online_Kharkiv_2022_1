@@ -1,5 +1,6 @@
 provider "aws" {
   region = "eu-central-1"
+
 }
 
 resource "aws_eip" "my_static_ip" {
