@@ -6,8 +6,8 @@ Create a simple pipeline with use Jenkins + GitHub. Additionally, I used Terrafo
 
 ## 1. Application
 I create a simple parser on python witch will be simulated application. It will be parsing a some prices of cryptocoins from API Coingecko and send message to my Telegram.
-Parser on Python:
-<code>[click here](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m9_FinaleProject/parser_cg.py "link on GitHub")
+
+<code>[Parser on Python](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m9_FinaleProject/parser_cg.py "link on GitHub")
 </code>
 
 ## 2. Product environment
