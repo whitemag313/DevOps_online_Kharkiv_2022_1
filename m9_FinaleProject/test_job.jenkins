@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage("copy parser") {
             steps {
-                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.66.199.58 \'wget -O parser_cg.py https://raw.githubusercontent.com/whitemag313/DevOps_online_Kharkiv_2022_1/master/m9_FinaleProject/parser_cg.py\''
+                sh 'ssh -i /home/jenkins/jenkins ec2-user@3.125.229.96 \'wget -O parser_cg.py https://raw.githubusercontent.com/whitemag313/DevOps_online_Kharkiv_2022_1/master/m9_FinaleProject/parser_cg.py\''
             }
         }
     }

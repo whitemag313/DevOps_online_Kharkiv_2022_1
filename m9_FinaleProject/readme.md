@@ -16,6 +16,7 @@ Terraform will create instance, install python with modules, add ssh-key for Jen
 
 <code>[link on TF file](https://github.com/whitemag313/DevOps_online_Kharkiv_2022_1/blob/master/m9_FinaleProject/TF/main.tf "link on GitHub")
 </code>
+
 ## 3. Jenkins
 Create virtual machine in VB and install Jenkins. As Jenkins will be on my VB, GitHub can't pushing new commit, so I configured in such a way that Jenkins would pull every minute Git to check new commit.
 

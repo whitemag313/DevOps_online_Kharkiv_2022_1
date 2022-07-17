@@ -29,7 +29,7 @@ for tik, price in prices.items():
         usd_p = (price[usd_k])
         d1[tik] = usd_p
 
-cont1 = ("BTC: " + str(d1["bitcoin"]) + "$")
+cont1 = ("Bitcoin: " + str(d1["bitcoin"]) + "$")
 cont2 = ("ETH: " + str(d1["ethereum"]) + "$")
 cont3 = ("XMR: " + str(d1["monero"]) + "$")
 
